@@ -1,11 +1,12 @@
-# LRP-Time-Series
+LRP-Time-Series
+==
 
 Python implementation of the LRP method that is a novel methodology for interpreting generic multilayer neural networks by decomposing the network classification decision into contributions of its input elements.
 
-### Reference Paper 
+## Reference Paper 
 **Explaining nonlinear classification decisions with deep taylor decomposition**. Gregoire Montavon, Sebastian Bach, Alexander Binder, Wojciech Samek, and Klaus-Robert Muller (https://arxiv.org/abs/1512.02479)
 
-### Example Setup 
+## Example Setup 
 This is a deep learning method to classify time- series dataset. Our goal is to test how the LRP (more specifically deep Taylor Decomposition) can perform to depict the important time epochs and features from raw time series data. 
 <p align="center"> 
 <img src="https://github.com/OpenXAIProject/LRP-Time-Series/blob/master/result.jpg"  width="600">
@@ -15,7 +16,7 @@ This is a deep learning method to classify time- series dataset. Our goal is to 
 We will use the classic Human Activity Recognition (HAR) dataset from the UCI repository. The dataset contains the raw time-series data on human activity.
 https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
 
-### Details of Dataset and Models 
+## Details of Dataset and Models 
 + We use deep neural network with four 1D convolution layers and 1 fully connected layer. 
 + In the code, cast the data set in a numpy array with shape (batch-size, sequence-len, n-channels) 
 + Batch-size: the # of examples training together 
@@ -26,8 +27,7 @@ https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartph
 <img src="https://github.com/OpenXAIProject/LRP-Time-Series/blob/master/model.jpg" width="600">
 </p>
 
-
-### Installation
+## Installation
 <img src="https://github.com/OpenXAIProject/LRP-Time-Series/blob/master/howtorun.gif"  width="800">
 
 **1. Fork & Clone** : Fork this project to your repository and clone to your work directory.
@@ -40,7 +40,7 @@ https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartph
 
 **4. Run** : Run "LRP_tutorial.ipynb" or "LRP_tutorial.py"
 
-### Requires 
+## Requires 
 + tensorflow (1.9.0)
 + numpy (1.15.0)
 + matplotlib (2.2.2)
