@@ -49,15 +49,15 @@ https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartph
 <br /> 
 <br />
 
-# XAI Project  <img align="right" src="http://xai.unist.ac.kr/static/img/logos/XAIC_logo.png" width=350px>
+# XAI Project 
 
 **This work was supported by Institute for Information &communications​ Technology Promotion(IITP) grant funded by the Korea government(MSIT) (No.2017-0-01779, A machine learning and statistical inference framework for explainable artificial intelligence)**
 
 + Project Name : A machine learning and statistical inference framework for explainable artificial intelligence(의사결정 이유를 설명할 수 있는 인간 수준의 학습·추론 프레임워크 개발)
 
-+ Managed by Ministry of Science and ICT/XAIC
++ Managed by Ministry of Science and ICT/XAIC <img align="right" src="http://xai.unist.ac.kr/static/img/logos/XAIC_logo.png" width=300px>
 
-+ Participated Affiliation : UNIST, Korea Univ., Yonsei Univ., KAIST, AItrics
++ Participated Affiliation : UNIST, Korea Univ., Yonsei Univ., KAIST, AItrics  
 
 + Web Site : <http://openXai.org>
 
