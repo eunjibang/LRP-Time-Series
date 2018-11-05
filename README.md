@@ -5,8 +5,24 @@ Python implementation of the LRP method that is a novel methodology for interpre
 ### Reference Paper 
 **Explaining nonlinear classification decisions with deep taylor decomposition**. Gregoire Montavon, Sebastian Bach, Alexander Binder, Wojciech Samek, and Klaus-Robert Muller (https://arxiv.org/abs/1512.02479)
 
-### Dataset
+### Example Setup 
+This is a deep learning method to classify time- series dataset. Our goal is to test how the LRP (more specifically deep Taylor Decomposition) can perform to depict the important time epochs and features from raw time series data. 
+
+<img src="https://github.com/OpenXAIProject/LRP-Time-Series/blob/master/result.jpg"  width="600" align="center">
+
+### Dataset 
+We will use the classic Human Activity Recognition (HAR) dataset from the UCI repository. The dataset contains the raw time-series data on human activity.
 https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
+
+### Details of Dataset and Models 
++ We use deep neural network with four 1D convolution layers and 1 fully connected layer. 
++ In the code, cast the data set in a numpy array with shape (batch-size, sequence-len, n-channels) 
++ Batch-size: the # of examples training together 
++ Sequence-len: the length of sequence in time (128 steps here) 
++ N-channels: the # of channels in the layer (# of channels in input is the # of measurements)ties: 
++ There are 6 classes of activities: walking, walking upstairs, walking downstairs, sitting standing, laying
+
+<img src="https://github.com/OpenXAIProject/LRP-Time-Series/blob/master/model.jpg" width="600" align="center">
 
 ### Installation
 <img src="https://github.com/OpenXAIProject/LRP-Time-Series/blob/master/howtorun.gif"  width="800">
@@ -29,20 +45,17 @@ https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartph
 
 <br /> 
 <br />
+<br />
 
-# XAI Project  <img align="right" src="http://xai.unist.ac.kr/static/img/logos/XAIC_logo.png" width=300px>
+# XAI Project  <img align="right" src="http://xai.unist.ac.kr/static/img/logos/XAIC_logo.png" width=350px>
 
 **This work was supported by Institute for Information &communications​ Technology Promotion(IITP) grant funded by the Korea government(MSIT) (No.2017-0-01779, A machine learning and statistical inference framework for explainable artificial intelligence)**
 
-+ Project Name
-> A machine learning and statistical inference framework for explainable artificial intelligence(의사결정 이유를 설명할 수 있는 인간 수준의 학습·추론 프레임워크 개발)
++ Project Name : A machine learning and statistical inference framework for explainable artificial intelligence(의사결정 이유를 설명할 수 있는 인간 수준의 학습·추론 프레임워크 개발)
 
-+ Managed by
-> Ministry of Science and ICT/XAIC
++ Managed by Ministry of Science and ICT/XAIC
 
-+ Participated Affiliation
-> UNIST, Korea Univ., Yonsei Univ., KAIST., AItrics
++ Participated Affiliation : UNIST, Korea Univ., Yonsei Univ., KAIST, AItrics
 
-+ Web Site
-> <http://openXai.org>
++ Web Site : <http://openXai.org>
 
