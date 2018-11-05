@@ -7,8 +7,9 @@ Python implementation of the LRP method that is a novel methodology for interpre
 
 ### Example Setup 
 This is a deep learning method to classify time- series dataset. Our goal is to test how the LRP (more specifically deep Taylor Decomposition) can perform to depict the important time epochs and features from raw time series data. 
-
-<img src="https://github.com/OpenXAIProject/LRP-Time-Series/blob/master/result.jpg"  width="600" align="center">
+<p align="center"> 
+<img src="https://github.com/OpenXAIProject/LRP-Time-Series/blob/master/result.jpg"  width="600">
+</p>
 
 ### Dataset 
 We will use the classic Human Activity Recognition (HAR) dataset from the UCI repository. The dataset contains the raw time-series data on human activity.
@@ -21,8 +22,10 @@ https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartph
 + Sequence-len: the length of sequence in time (128 steps here) 
 + N-channels: the # of channels in the layer (# of channels in input is the # of measurements)ties: 
 + There are 6 classes of activities: walking, walking upstairs, walking downstairs, sitting standing, laying
+<p align="center"> 
+<img src="https://github.com/OpenXAIProject/LRP-Time-Series/blob/master/model.jpg" width="600">
+</p>
 
-<img src="https://github.com/OpenXAIProject/LRP-Time-Series/blob/master/model.jpg" width="600" align="center">
 
 ### Installation
 <img src="https://github.com/OpenXAIProject/LRP-Time-Series/blob/master/howtorun.gif"  width="800">
