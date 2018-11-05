@@ -2,13 +2,13 @@
 
 Python implementation of the LRP method that a novel methodology for interpreting generic multilayer neural networks by decomposing the network classification decision into contributions of its input elements.
 
-### Reference paper###
+### Reference paper 
 Explaining nonlinear classification decisions with deep taylor decomposition. Gregoire Montavon, Sebastian Bach, Alexander Binder, Wojciech Samek∗, and Klaus-Robert Muller (https://arxiv.org/abs/1512.02479)
 
-### DataSet ###
+### DataSet
 https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
 
-### Installation ###
+### Installation
 <img src="https://github.com/OpenXAIProject/LRP-Time-Series/blob/master/howtorun.gif"  width="800">
 1. Fork & Clone
  Fork this project to your repository and clone to your work directory.
@@ -18,14 +18,16 @@ https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartph
 3. Change directory
  Move the "UCI HAR Dataset" to your work directory to locate in same foler.
  
-### Requires ### 
+### Requires 
 + tensorflow (1.9.0)
 + numpy (1.15.0)
 + matplotlib (2.2.2)
 + scikit-learn (0.19.1)
 
 <br /> 
+
 ## XAI Project  <img align="right" src="http://xai.unist.ac.kr/static/img/logos/XAIC_logo.png" width=300px>
+
 **This work was supported by Institute for Information &communications​ Technology Promotion(IITP) grant funded by the Korea government(MSIT) (No.2017-0-01779, A machine learning and statistical inference framework for explainable artificial intelligence)**
 
 + Project Name
