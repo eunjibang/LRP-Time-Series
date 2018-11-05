@@ -10,6 +10,7 @@ https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartph
 
 ### Installation
 <img src="https://github.com/OpenXAIProject/LRP-Time-Series/blob/master/howtorun.gif"  width="800">
+
 1. Fork & Clone
  Fork this project to your repository and clone to your work directory.
  
