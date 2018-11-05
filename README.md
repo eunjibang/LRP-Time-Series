@@ -12,7 +12,7 @@ This is a deep learning method to classify time- series dataset. Our goal is to 
 <img src="https://github.com/OpenXAIProject/LRP-Time-Series/blob/master/result.jpg"  width="600">
 </p>
 
-### Dataset 
+## Dataset 
 We will use the classic Human Activity Recognition (HAR) dataset from the UCI repository. The dataset contains the raw time-series data on human activity.
 https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
 
@@ -48,8 +48,6 @@ https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartph
 
 <br /> 
 <br />
-<br />
-
 # XAI Project  <img align="right" src="http://xai.unist.ac.kr/static/img/logos/XAIC_logo.png" width=350px>
 
 **This work was supported by Institute for Information &communications​ Technology Promotion(IITP) grant funded by the Korea government(MSIT) (No.2017-0-01779, A machine learning and statistical inference framework for explainable artificial intelligence)**
