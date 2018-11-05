@@ -4,7 +4,7 @@ LRP-Time-Series
 Python implementation of the LRP method that is a novel methodology for interpreting generic multilayer neural networks by decomposing the network classification decision into contributions of its input elements.
 
 ## Reference Paper 
-**Explaining nonlinear classification decisions with deep taylor decomposition**. Gregoire Montavon, Sebastian Bach, Alexander Binder, Wojciech Samek, and Klaus-Robert Muller (https://arxiv.org/abs/1512.02479)
+**"Explaining nonlinear classification decisions with deep taylor decomposition"**. Gregoire Montavon, Sebastian Bach, Alexander Binder, Wojciech Samek, and Klaus-Robert Muller (https://arxiv.org/abs/1512.02479)
 
 ## Example Setup 
 This is a deep learning method to classify time- series dataset. Our goal is to test how the LRP (more specifically deep Taylor Decomposition) can perform to depict the important time epochs and features from raw time series data. 
