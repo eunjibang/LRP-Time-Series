@@ -48,6 +48,7 @@ https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartph
 
 <br /> 
 <br />
+
 # XAI Project  <img align="right" src="http://xai.unist.ac.kr/static/img/logos/XAIC_logo.png" width=350px>
 
 **This work was supported by Institute for Information &communications​ Technology Promotion(IITP) grant funded by the Korea government(MSIT) (No.2017-0-01779, A machine learning and statistical inference framework for explainable artificial intelligence)**
