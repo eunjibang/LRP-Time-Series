@@ -12,9 +12,12 @@ https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartph
 <img src="https://github.com/OpenXAIProject/LRP-Time-Series/blob/master/howtorun.gif"  width="800">
 1. Fork & Clone
  Fork this project to your repository and clone to your work directory.
- ``` $git clone https://github.com/OpenXAIProject/LRP-Time-Series.git ```
+ 
+ ``` $ git clone https://github.com/OpenXAIProject/LRP-Time-Series.git ```
+ 
 2. Download Dataset
  Go to the UCI repository site and Download the "UCI HAR Dataset" 
+ 
 3. Change directory
  Move the "UCI HAR Dataset" to your work directory to locate in same foler.
  
