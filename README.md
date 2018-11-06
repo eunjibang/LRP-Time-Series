@@ -47,7 +47,7 @@ https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartph
 + scikit-learn (0.19.1)
 
 ## License
-https://github.com/OpenXAIProject/LRP-Time-Series/blob/master/LICENSE
+[Apache License 2.0](https://github.com/OpenXAIProject/LRP-Time-Series/blob/master/LICENSE "Apache")
 
 ## Contacts
 If you have any question, please contact Xie Qin(xieqin856@unist.ac.kr) and/or Sohee Cho(shcho@unist.ac.kr).
