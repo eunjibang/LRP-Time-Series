@@ -40,7 +40,7 @@ https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartph
 
 **4. Run** : Run "LRP_tutorial.ipynb" or "LRP_tutorial.py"
 
-## Requires 
+## Requirements 
 + tensorflow (1.9.0)
 + numpy (1.15.0)
 + matplotlib (2.2.2)
